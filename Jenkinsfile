@@ -24,7 +24,7 @@ pipeline {
         sh "mvn sonar:sonar \
   -Dsonar.projectKey=numeric-application \
   -Dsonar.host.url=http://devsecops.eastasia.cloudapp.azure.com:9000 \
-  -Dsonar.login=3258b8e377232de22668cc03e2c7c22bcabf9520"
+  -Dsonar.login=44e2574c6006c6ecdb78977e6eaf394a1b7b657e"
       }
     }
     stage('Vulnerability Scan - Docker ') {
